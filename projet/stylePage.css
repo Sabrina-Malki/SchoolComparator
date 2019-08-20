@@ -1,0 +1,209 @@
+div#menu {
+	background-color : pink;
+	text-align : center;
+	position : sticky;
+	top: 0;
+}
+
+div#menu ul>li {
+	display : inline;
+	width : 20%;
+}
+
+div#menu li ul li{ 
+	display : block; 
+} 
+
+.sous-liste
+{
+    display: none; 
+}
+
+.submenu 
+{
+	background-color : lightblue;
+}
+.submenu li 
+{
+	color : darkblue;
+}
+
+
+
+#menu ul li:hover .sous-liste {
+    display: inline-block;
+    position: absolute;
+    background-color: pink;
+	top : 100%;
+	left : auto;
+	min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px; 
+    z-index: 1;
+}
+
+div.formulaire #form2 {
+	float : right;
+}
+
+div.formulaire #form {
+	float : left;
+}
+
+div.formulaire form
+{
+	border : 5px solid;
+	border-color : lightblue; 
+	margin : 10px;
+	padding : 20px;
+}
+div.formulaire
+{
+	border : 5px solid;
+	border-color : lightblue; 
+	margin : 10px;
+	padding : 20px;
+}
+
+div.formulaire label {
+	font-weight : bold;
+}
+
+thead {
+font-weight : bold;
+font-style : italic;
+color : green;
+transition-property : color, opacity;
+transition-duration : 1,5s;
+}
+
+
+td:nth-child(1) {
+font-weight : bold;
+font-style : italic;
+color : blue;
+}
+
+h1,h2,h3,h4,h5 {
+font-weight:bold;
+}
+
+h1 {
+font-weight : bold;
+font-size : xx-large;
+font-style : italic;
+font-family : Maker Felt, Stencil Std,Jazz LET,fantasy;
+}
+
+html {
+border: 20px solid ;
+border-color : darkblue; 
+margin: 25px;
+padding : 50px;
+}
+
+img#flou {
+filter : blur(5px);
+}
+
+img#flou:hover {
+filter : blur(0px);
+width : 105%;
+}
+
+
+.container {
+  background-color:white;
+  width:500px;
+  margin: 0 auto;
+  padding: 10px 10px 0 10px;
+  
+  
+}
+
+.slideshow_wrapper {
+  width:100%;
+  overflow: hidden;
+   
+}
+
+.slideshow {
+  width:1500px;
+  height:280px;
+  margin: 0 0 0 -1000px;
+  position: relative;
+  animation-name: slide_animation;
+  animation-duration:8s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  animation-direction:reverse;
+  animation-play-state: running;
+}
+
+.slideshow:hover{
+	animation-play-state:paused;
+}
+
+div.slide {
+  
+  width:500px;
+  height: 270px;
+  position:relative;
+  float:left;
+  overflow:hidden;
+  
+}
+
+.slideshow img{
+  height:270px;
+  width:100%;
+  float:left;
+  display:inline;
+}
+
+@keyframes slide_animation {
+  
+  0% {left:0px;}
+  50% {left:500px;}
+  100% {left:1000px;}
+  
+}
+
+button.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+button.btn:hover {
+  background-color: RoyalBlue;
+}
+
+#com {
+	float : right;
+	background-color : lightblue;
+}
+
+#ecoles {
+	float : left;
+}
+
+#membrecom {
+	float : left;
+}
+
+
+
+
+
+
+
+
+
+
+
+

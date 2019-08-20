@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<head>
+<link href="stylePage.css" rel="stylesheet"/>
+<!-- <script src="scriptPage.js"></script> -->
+<script src="jquery-3.3.1.js"></script>
+<script src="scriptPageJQ.js"></script>
+
+
+<meta charset="utf-8">
+<title> Site de l'école privé </title>
+</head>
+
+<!-- <body onload="calculTaxe()"> -->
+
+
+<header>
+<h1> <center> Ecole privée </center></h1>
+<h2> <center> مدرسة خاصة </center> </h2>
+</header>
+
+<!-- <img src="imageAccueil.jpg" title="image accueil" alt="image d'accueil" width="100%" id="flou"> --> 
+
+
+<div class="container">
+  <div class="slideshow_wrapper">
+    <div class="slideshow">
+      <div class="slide">
+        <img src="imageAccueil.jpg" />
+      </div>
+      
+      <div class="slide">
+        <img src="diapo2.jpg" />
+      </div>
+      
+       <div class="slide">
+        <img src="diapo3.jpg" />
+      </div>
+	 
+    </div></div></div></div>
+
+
+<ul class="formation">
+<div class="lien">
+<li><a href="bureautique.html" target="_blank">Bureautique</a> </li>
+<li><a href="infographie.html" target="_blank">Infographie</a>  </li>
+<li><a href="langues.html" target="_blank">Langues</a>  </li>
+<li><a href="management.html" target="_blank">Management</a>  </li>
+<li><a href="comptabilité.html" target="_blank">Comptabilité</a>  </li>
+</div>
+</ul>
+
+
+
+<center>
+<video width="500" height="300" controls>
+<source src="Video accueil.mp4" type="video/mp4"> 
+</video> </center>
+ </br>
+
+<!-- TABLEAU -->
+
+<center>
+<table border="10" class="table" id="tableTax">
+<thead>
+<th>Formation </th>
+<th>Volume horaires </th>
+<th>Prix HT(DA) </th>
+<th>Taux taxe(%) </th>
+<th>Prix TTC(DA)</th>
+</thead>
+<tbody>
+<tr>
+<td>Bureautique </td> 
+<td style="background-color:green"> 12h </td>
+<td>500</td>
+<td style="background-color:green">17</td>
+<td></td>
+</tr>
+<tr> 
+<td>Infographie </td>
+<td style="background-color:green">12h</td>
+<td>500</td>
+<td style="background-color:green">17</td>
+<td></td>
+</tr>
+<tr> 
+<td>Langues </td>
+<td> 14h </td>
+<td>500</td>
+<td >0</td>
+<td></td>
+</tr>
+<tr> 
+<td>Management</td> 
+<td style="background-color:yellow"> 15h </td>
+<td>500</td>
+<td style="background-color:yellow">19</td>
+<td></td>
+</tr>
+<tr>
+<td>Comptabilité </td>
+<td style="background-color:yellow">15h </td>
+<td>500</td>
+<td style="background-color:yellow">19</td>
+<td></td>
+ </tr>
+</tbody>
+</table>
+</center>
+
+<!-- TABLEAU -->
+
+<form id="form">
+<label>Nom de la formation :</label> <input type="text" id="nom"/> <br/><br/>
+<label>Volume horaires :</label> <input type="number" min="1" max="24" id="vh"/><br/><br/>
+<label>Prix HT :</label> <input type="number" id="ht"/><br/><br/>
+<label>Taux taxe :</label> <input type="number" id="tauxt"/><br/><br/>
+<input type="button" value="Valider" id="valid"/>
+</form>
+
+<?php
+echo "hello je suis une page contenant le php";
+?>
+
+<footer>
+<a href="mailto:fs_malki@esi.dz">Contactez nous</a>
+</footer>
+
+</body>
+
+
+</html>
